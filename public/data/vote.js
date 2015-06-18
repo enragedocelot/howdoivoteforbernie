@@ -291,7 +291,7 @@ exports.vote = [
                 "closed" : "false",
                 "date" : "2016-03-05",
                 "seventeen" : "false",
-                "remarks" : "“Effectively open. Top-two runoff system (cajun primary) used. Closed primary used for Congressional races after 2006.”",
+                "remarks" : "Effectively open. Top-two runoff system (cajun primary) used. Closed primary used for Congressional races after 2006.”",
             },
         },
     },
