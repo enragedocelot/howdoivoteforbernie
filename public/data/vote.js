@@ -161,8 +161,7 @@ exports.vote = [
         "info" : {
             "registration" : {
                 "deadline" : "Postmarked by the fifth Monday before the election.",
-                //which link is better?
-                //"link" : "http://www.alabamavotes.gov/GetRegForm.aspx?m=voters", "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
+                "link" : "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
             },
             "primary" : {
                 "closed" : "false",
@@ -294,6 +293,510 @@ exports.vote = [
                 "remarks" : "Effectively open. Top-two runoff system (cajun primary) used. Closed primary used for Congressional races after 2006.”",
             },
         },
+    },
+    {
+        "name": "Maine",
+        "abbreviation": "ME",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 21 days before the election.",
+                "link" : "http://www.alabamavotes.gov/GetRegForm.aspx?m=voters"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "TBD",
+                "seventeen" : "true"
+            }
+        }
+    },
+    {
+        "name": "Maryland",
+        "abbreviation": "MD",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 21 days before the election.",
+                "link" : "http://www.elections.state.md.us/voter_registration/"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-04-05",
+                "seventeen" : "true"
+            }
+        }
+    },
+    {
+        "name": "Massachusetts",
+        "abbreviation": "MA",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 20 days before the election.",
+                "link" : "http://www.sec.state.ma.us/ele/eleifv/howreg.htm"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-03-01",
+                "seventeen" : "false",
+                "remarks" : "All races' primaries open for unenrolled/unaffiliated voters only."
+            }
+        }
+    },
+    {
+        "name": "Michigan",
+        "abbreviation": "MI",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 30 days before the election.",
+                "link" : "https://www.michigan.gov/sos/0,1607,7-127-1633_8716_8726_47669---,00.html"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "2016-03-08",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "Minnesota",
+        "abbreviation": "MN",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 21 days before the election.",
+                "link" : "http://mnvotesinfo.sos.state.mn.us/"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "TBD",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "Mississippi",
+        "abbreviation": "MS",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 30 days before the election.",
+                "link" : "http://www.sos.ms.gov/Elections-Voting/Pages/Voter-Registration-Information.aspx"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "2016-03-08",
+                "seventeen" : "true"
+            }
+        }
+    },
+    {
+        "name": "Missouri",
+        "abbreviation": "MO",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received before 5pm on the fourth Wednesday prior to the election.",
+                "link" : "http://www.sos.mo.gov/elections/voterlookup/"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "2016-03-15",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "Montana",
+        "abbreviation": "MT",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 30 days before the election.",
+                "link" : "http://sos.mt.gov/ELECTIONS/Vote/index.asp"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "2016-06-07",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "Nebraska",
+        "abbreviation": "NE",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked by the third Friday before the election.",
+                "link" : "http://www.sos.ne.gov/elec/voter_info.html"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-05-10",
+                "seventeen" : "true"
+            }
+        }
+    },
+    {
+        "name": "Nevada",
+        "abbreviation": "NV",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked by 31 days before the election",
+                "link" : "http://nvsos.gov/index.aspx?page=3"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-02-23",
+                "seventeen" : "true"
+            }
+        }
+    },
+    {
+        "name": "New Hampshire",
+        "abbreviation": "NH",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 10 days before the election.",
+                "link" : "http://sos.nh.gov/VoteNH.aspx"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-02-09",
+                "seventeen" : "false",
+                "remarks" : "Open primary for Unaffiliated voters only."
+            }
+        }
+    },
+    {
+        "name": "New Jersey",
+        "abbreviation": "NJ",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 21 days before the election.",
+                "link" : "http://www.state.nj.us/state/elections/voting-information.html"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-06-07",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "New Mexico",
+        "abbreviation": "NM",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 28 days before the election.",
+                "link" : "http://www.sos.state.nm.us/Voter_Information/Voter_Registration_Information.aspx"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-06-07",
+                "seventeen" : "false",
+            }
+        }
+    },
+    {
+        "name": "New York",
+        "abbreviation": "NY",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 25 days before the election.",
+                "link" : "http://www.elections.ny.gov/"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "TBD",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "North Caroline",
+        "abbreviation": "NC",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 25 day before the election.",
+                "link" : "https://www.ncsbe.gov/ncsbe/registering-to-vote"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-03-01",
+                "seventeen" : "false",
+                "remarks" : "All races' primaries open for unaffiliated voters only"
+            }
+        }
+    },
+    {
+        "name": "North Dakota",
+        "abbreviation": "ND",
+        "info" : {
+            "registration" : {
+                "deadline" : "TBD",
+                "link" : "https://vip.sos.nd.gov/PortalList.aspx"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "TBD",
+                "seventeen" : "true"
+            }
+        }
+    },
+    {
+        "name": "Ohio",
+        "abbreviation": "OH",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 30 days before the election.",
+                "link" : "http://www.sos.state.oh.us/sos/elections/Voters.aspx"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-03-15",
+                "seventeen" : "true",
+                "remarks" : "Party declaration/affiliation done at Primary voting ballots"
+            }
+        }
+    },
+    {
+        "name": "Oklahoma",
+        "abbreviation": "OK",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 25 days before the election.",
+                "link" : "http://www.ok.gov/elections/Voter_Info/Register_to_Vote/"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-03-01",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "Oregon",
+        "abbreviation": "AK",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 21 days before the election.",
+                "link" : "http://sos.oregon.gov/voting/Pages/voteinor.aspx"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-0-17",
+                "seventeen" : "true"
+            }
+        }
+    },
+    {
+        "name": "Pennsylvania",
+        "abbreviation": "PA",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 30 days before the election.",
+                "link" : "http://www.votespa.com/portal/server.pt/community/home/13514"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-04-26",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "Rhode Island",
+        "abbreviation": "RI",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 30 days before the election.",
+                "link" : "http://sos.ri.gov/elections/voters/"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-04-26",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "South Carolina",
+        "abbreviation": "SC",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 30 days before the election.",
+                "link" : "http://www.scvotes.org/south_carolina_voter_registration_information"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "2016-02-20",
+                "seventeen" : "false",
+                "remarks" : "Voter must vote in runoff primary of same party."
+            }
+        }
+    },
+    {
+        "name": "South Dakota",
+        "abbreviation": "SD",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 15 days before the election.",
+                "link" : "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-06-07",
+                "seventeen" : "false",
+            }
+        }
+    },
+    {
+        "name": "Tennessee",
+        "abbreviation": "TN",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 30 days before the election.",
+                "link" : "http://sos.tn.gov/products/elections/register-vote-0"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "2016-03-01",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "Texas",
+        "abbreviation": "TX",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 30 days before the election.",
+                "link" : "http://www.sos.state.tx.us/elections/voter/reqvr.shtml"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "2016-03-01",
+                "seventeen" : "false",
+                "remarks" : "Voter must vote in runoff primary of same party."
+            }
+        }
+    },
+    {
+        "name": "Utah",
+        "abbreviation": "UT",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 30 days before the election.",
+                "link" : "https://secure.utah.gov/voterreg/index.html"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-06-28",
+                "seventeen" : "false",
+                "remarks" : "Currently only Republicans close primary."
+            }
+        }
+    },
+    {
+        "name": "Vermont",
+        "abbreviation": "VT",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received by 5pm on the Wednesday before the election.",
+                "link" : "https://www.sec.state.vt.us/elections/voters/registration.aspx"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "2016-03-01",
+                "seventeen" : "true"
+            }
+        }
+    },
+    {
+        "name": "Virginia",
+        "abbreviation": "VA",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 22 days before the election.",
+                "link" : "https://www.vote.virginia.gov/"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "2016-03-01",
+                "seventeen" : "true"
+            }
+        }
+    },
+    {
+        "name": "Washington",
+        "abbreviation": "WA",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked by the Monday four weeks before the election",
+                "link" : "http://www.sos.wa.gov/elections/"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "TBD",
+                "seventeen" : "true"
+            }
+        }
+    },
+    {
+        "name": "West Virginia",
+        "abbreviation": "WV",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 21 days before the election.",
+                "link" : "http://www.sos.wv.gov/elections/VoterRegistration/Pages/default.aspx"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "2016-05-10",
+                "seventeen" : "false",
+                "remarks" : "Currently only Democrats close primary."
+            }
+        }
+    },
+    {
+        "name": "Wisconsin",
+        "abbreviation": "WI",
+        "info" : {
+            "registration" : {
+                "deadline" : "Postmarked 20 days before the election.",
+                "link" : "http://www.gab.wi.gov/voters"
+            },
+            "primary" : {
+                "closed" : "false",
+                "date" : "2016-04-5",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "Wyoming",
+        "abbreviation": "WY",
+        "info" : {
+            "registration" : {
+                "deadline" : "Received 14 days before the election.",
+                "link" : "http://soswy.state.wy.us/Elections/Voting.aspx"
+            },
+            "primary" : {
+                "closed" : "true",
+                "date" : "TBD",
+                "seventeen" : "false"
+            }
+        }
+    },
+    {
+        "name": "Alaska",
+        "abbreviation": "AK",
+        "info" : {
+            "registration" : {
+                //"deadline" : "Postmarked 11 days before election",
+                //"link" : "http://www.alabamavotes.gov/GetRegForm.aspx?m=voters"
+            },
+            "primary" : {
+                //"closed" : "true",
+                //"date" : "2016-03-08",
+                //"seventeen" : "false",
+                //"remarks" : "type whatever comment"
+            }
+        }
     },
     {
         "name": "Arizona",
